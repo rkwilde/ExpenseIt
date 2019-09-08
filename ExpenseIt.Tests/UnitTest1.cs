@@ -17,5 +17,13 @@ namespace ExpenseIt.Tests
             var sum = sstt.Add(1,2);
             Assert.AreEqual(sum,3);
         }
+
+        [Test]
+        public void subtract3minus1equals2()
+        {
+            SomeStuffToTest sstt = new SomeStuffToTest();
+            var sum = sstt.Subtract(3,1);
+            Assert.AreEqual(sum,2);
+        }
     }
 }
